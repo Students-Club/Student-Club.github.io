@@ -1,0 +1,133 @@
+body {padding:0; margin:0}
+
+.container-fluid { width:100%; height:100%}
+
+.header {height:16%; width:100%; }
+
+.body {height:68%; width:100%; /*background-color:green;*/}
+
+.footer {height:16%; width:100%; /*background-color:yellow;*/}
+
+.logo {width:120; height:60; margin:20 0 auto 120; float:left;}
+
+.head {float:right; width:60%; height:100%; float:right;margin:30 120 0 0;}
+
+ul {font-family:Brandon grotesque; line-height:3; text-align:right;}
+
+li { font-size:100%; display:inline; padding-left:36; }
+
+a {text-decoration:none; color:black; opacity:0.4;transition: 0.4s;}
+
+a:hover {text-decoration:none; color:black;font-weight: bold; opacity:0.8; transition: 0.4s;}
+
+.box{ width:50%; height:68%; margin-left:120; background-color: #cbaa51; position:absolute;}
+
+.sctext {font-family: 'Average', serif; font-size: 104; text-align:right; float:right; position:relative; z-index:5;
+		margin:40 120 40 0; color:#2b2b2b; line-height:1.1;}
+		
+.booktabletext {font-family: Brandon grotesque; font-size: 12; color:white;background-color: #2b2b2b;margin-left:79.7%;
+				position:relative; z-index:18; padding: 15 40;}
+				
+.booktabletext:hover {cursor:pointer}
+		
+.mySlides fade {width:84%; height:84%; margin:6% 8% 6% 8%;}
+
+.timing {font-family:Brandon grotesque; font-size: 16; position:absolute ; z-index:10; transform: rotate(-90deg); 
+		opacity:0.6;margin: 240 0 0 -50; letter-spacing:1.2;}
+
+.vl {border-left: 2px solid black; height: 40px; opacity:0.4; margin: 90 0 0 60;}
+
+.left_box {float: left;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  font-size:20;
+  opacity: 0.5;
+  display: inline-block;
+  padding-right:20;
+  transition: opacity 0.6s ease;
+}
+
+.active {
+  opacity: 1.0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+.footer {font-family: Brandon grotesque; position: absolute;} 
+
+.number {text-align:left; margin: 36 0 0 121; float:left; text-align:center }
+
+.underline {background-color: black;
+			width:10; 
+			height:2; 
+			position: relative; 
+			z-index:12; 
+			margin: 64 0 0 120;
+			}
+
+.slider {width:0px;
+    height: 4px;
+    background-color: #cbaa51;
+    position: relative;
+	z-index:14;
+	margin: -16 0 0 300;
+    -webkit-animation-name: lineslider; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: lineslider;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	}
+
+	@keyframes lineslider {
+    0% {width:0px;}
+    100% {width:57.5%;}
+	} 
+	
+	@-webkit-keyframes lineslider {
+    0% {width:0px;}
+    100% {width:57.5%;}
+	}
+
+.sliderconstant {width:57.5%; height:2px; background-color:#2b2b2b; opacity:0.4;margin: -3 0 0 300; position:relative; z-index: 12;}	
+	
+.links {width:160; height:20; position:relative; z-index:16; margin:-26 0 0 82%; opacity:0.6;}	
+	
+.scicon {border: 2px solid black; margin-right: 20; width:12; height:12; padding:4;}
+
+.scicon:hover {cursor:pointer} 
+	

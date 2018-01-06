@@ -1,0 +1,85 @@
+body {padding:0; margin:0}
+
+.container-fluid {width:100%;height:100%;}
+
+.header {height:16%; width:100%; /*background-color:cyan;*/ position:fixed; z-index:50;margin-left:-1.12%;}
+
+.logo {width:120; height:60; margin:20 0 auto 120; float:left;}
+
+.head {float:right; width:60%; height:100%; float:right;margin:30 120 0 0;}
+
+ul {font-family:Brandon grotesque; line-height:3; text-align:right; }
+
+li { font-size:100%; display:inline; padding-left:36; }
+
+.head a {text-decoration:none; color:black; opacity:0.4;transition: 0.4s;}
+
+.head a:hover {font-weight: bold; opacity:0.8; transition: 0.4s;text-decoration:none; color:black;}
+
+.box{background-color:#b4373d; width: 27%; height:100%; float:left;margin-left:-1.12%;}
+
+.body{width: 70%; height:100%; float:right}
+
+.gamesimg {position:absolute; z-index:12; margin: 8% 0 0 -25%; width: 690; height:460;}
+
+.game {font-family: 'Average', serif; font-size: 84; color:#b4373d; line-height:1.1;float:left; position:relative; 
+		z-index:20; text-align:left; margin:15% 0 2% 39% ;}
+
+.gametext {font-family: brandon grotesque; font-size: 20; color: #2c2c2c; width:40%; margin: 0 0 6% 39%; position:relative; 
+		z-index:25; line-height:1.15;opacity:0.8; }
+
+.booktable{ font-family: Brandon grotesque; font-size: 12; color:white;background-color: #b4373d;margin-left:39%;
+			padding: 15 40; }
+			
+.readmore{ font-family: Brandon grotesque; font-size: 12; color:#2c2c2c ;margin-left:5%; border: 1px solid black;
+			padding: 15 40; opacity:0.8}
+
+a {text-decoration:none;}	
+
+.number {text-align:center;position:fixed; z-index:12; float:left; margin:43% 0 0 7%;}		
+			
+.dot {
+  font-size:20;
+  display: inline-block;
+  color:white;
+  padding-right:20;
+  font-family: brandon grotesque;
+  opacity:0.6;
+}
+
+.dot a {
+  position:relative;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.dot a:hover {
+  color:white;
+    text-decoration: none;
+	font-weight:bold;
+}
+.dot a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  top:25;
+  right:10px;
+  left: 0;
+  background-color:white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    text-decoration: none;
+}
+.dot a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+    text-decoration: none;
+}
+
